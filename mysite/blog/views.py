@@ -37,4 +37,4 @@ class PostDraftView(LoginRequiredMixin,ListView):
 #####################################
 
 def add_comment_to_post(request,pk):
-    return 0
+    return 1
